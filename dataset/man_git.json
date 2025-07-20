@@ -1,0 +1,23 @@
+{
+	"name": "man_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Linked_HttpServerGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Saranya-Jagannathan/pyspark_learn/refs/heads/main/manuf_data.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

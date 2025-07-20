@@ -1,0 +1,9 @@
+{
+	"name": "magi-data-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "293a5140-ad84-4edd-90ff-b2879400d6f7",
+		"tenantId": "178b1072-68b9-4fca-b8b3-9881ff19f148"
+	}
+}
