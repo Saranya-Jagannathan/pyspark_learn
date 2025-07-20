@@ -4,7 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy data from git",
-				"description": "Copy data from git",
+				"description": "Copy data from gitr\n",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
